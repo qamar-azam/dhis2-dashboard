@@ -11,7 +11,7 @@ Application that fetches and renders the list of dashboards available to a DHIS2
 
 ## Deployed Version
 
-To see deployed version please click <a href="https://654cda83b5dcf73c329425b6--shimmering-lollipop-1e5270.netlify.app" target="_blank">Dashboards</a> or copy paste below url to browser.
+To see deployed version please click <a href="https://654cda83b5dcf73c329425b6--shimmering-lollipop-1e5270.netlify.app" target="_blank">Dashboards</a> or copy below url and paste to browser.
 
 ```
 https://654cda83b5dcf73c329425b6--shimmering-lollipop-1e5270.netlify.app
@@ -35,6 +35,20 @@ npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Assumptions
+
+I made few assumptions while working on assessment, which are followings:
+
+1. Show list of dashboards with first dashboard content and expanded by default.
+
+2. On Clicking dashboard name fetch its detail by api and display content in expanded accordion.
+
+3. Dashboard whose details already fetched are stored in state and not fetched again, just show content in expanded accordion.
+
+4. Starred state are stored in localStorage as well so on reload of page persist starred state instead of resetting.
+
+5. In terms of design I tried to use DHIS2's own UI library. I couldn't fully grasp and encounter some version issues so ended up using tailwindCSS for layout and styling. However, I used icons from the UI library and tried to make look and feel similar to design.
 
 ## Specs
 
