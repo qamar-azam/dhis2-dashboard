@@ -11,6 +11,8 @@ Application that fetches and renders the list of dashboards available to a DHIS2
 
 ## Deployed Version
 
+To see deployed version please click <a href="https://654cda83b5dcf73c329425b6--shimmering-lollipop-1e5270.netlify.app" target="_blank">Dashboards</a> or copy paste below url to browser.
+
 ```
 https://654cda83b5dcf73c329425b6--shimmering-lollipop-1e5270.netlify.app
 ```
