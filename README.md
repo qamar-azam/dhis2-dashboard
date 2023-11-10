@@ -4,10 +4,16 @@ Application that fetches and renders the list of dashboards available to a DHIS2
 
 ## Tech Stack
 
-- React(custom hook, ContextAPI)
+- React(Custom hook, ContextAPI)
 - DHIS2 UI,
 - TailwindCSS,
 - Jest and RTL
+
+## Deployed Version
+
+```
+https://654cda83b5dcf73c329425b6--shimmering-lollipop-1e5270.netlify.app
+```
 
 ## To run app locally
 
